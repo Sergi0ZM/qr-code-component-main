@@ -25,8 +25,8 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    height: 100vh;
+    justify-content: center;
+    min-height: 100vh;
     align-items: center;
     background-color: var(--light-gray);
 }
@@ -37,30 +37,22 @@ body {
     width: 60%;
     max-width: 225px;
     min-width: 225px;
-    /* padding: 12px; */
+    padding: 12px; 
     border-radius: 15px;
     box-shadow: 0px 4px 8px rgba(89, 73 , 30, 0.16);
     background-color: var(--white);
 }
-.image-container {
-    display: flex;
-    justify-content: center;
-    width: 90%;
-}
 .image-container img {
     width: 100%;
     border-radius: 15px;
-    margin: 8px;
 }
 .title-container {
     text-align: center;
-    margin: 0px 12px 0px 12px;
-    padding: 6px;
+    margin: 8px 12px 0px 12px;
     color: var(--dark-blue);
 }
 .text-container {
-    padding: 0px 12px 12px 12px;
-    margin: 4px 14px 16px 14px;
+    margin: 8px 12px 16px 12px;
     text-align: center;
     font-size: 1.1rem;
     color: var(--grayish-blue);
